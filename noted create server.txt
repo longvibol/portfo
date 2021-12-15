@@ -1,0 +1,21 @@
+1. Set up flask
+2. https://flask.com
+3. Create venv 
+4. Activate venv scripts
+5. set FLASK_APP=server.py
+6. set FLASK_ENV=development (tomake server run all the time)
+6. flask run
+7. render_template (import html file)
+8. 
+
+
+////////////////////Error env not set:
+
+set FLASK_APP=hello.py
+$env:FLASK_APP = "server.py"
+flask run
+
+============adding favicon
+
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+

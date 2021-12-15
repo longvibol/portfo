@@ -1,0 +1,36 @@
+1. python: https://www.pythonanywhere.com/user/vibollong/
+2. https://github.com/longvibol/portfo
+
+// Website upload Github and pythonanywhere
+
+3. File upload: static, teample, database, server.py
+4. run code to generate package file:
+>> pip freeze > requirements.txt
+
+5. upload to github comment
+>> git add .
+>> git commit -m"comment some"
+>> git push -u origin main
+
+=========================================
+
+6. set up in python anywhere
+>> go to bush>> git clone from githob 
+>> setup virtualenv
+>> mkvirtualenv --python=/usr/bin/python3.6 my-virtualenv
+>> workon my-virtualenv (mean go to our virtual inviromemnt)
+>> pip install flask
+>> pip install -r requirements.txt
+
+In Web==> change source code path
+==> change virtualen name to my-virtualenv after intall ENV in bush
+===> finaly change "WSGI configuration file" to flash setup!
+
+
+
+
+
+
+
+
+
